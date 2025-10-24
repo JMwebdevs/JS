@@ -20,7 +20,7 @@ let myCurrentJob = "Backend Developer";
 
 //* Data types 
 let jmIsHandsome = true;
-let age = 18;
+let $age = 18;
 let $name = "John Mark"
 
 jmIsHandsome = "YES! pogi talaga yan" // iAsign new value in already existing varible
@@ -38,3 +38,20 @@ year = 2025;
 
 //* JS bug
 // console.log(typeof null);
+
+
+
+//? Section 2 | let, Const, Var
+
+let age = 18;
+age = 19;
+// console.log(age);
+
+//* Const = immutable variable 
+const birthYear = 2007;
+// birthYear = 2006;
+
+//* Old Var (ES6)
+var job = "unemployed";
+job = "Software Engineer";
+// console.log(job);

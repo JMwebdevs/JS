@@ -1,7 +1,7 @@
 
 //? Value and Variable
-let country = "Philippines";
-let continent = "Asia";
+const country = "Philippines";
+const continent = "Asia";
 let population = 116;
 
 // console.log(country);
